@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employment Application Form</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <h1>Employment Application Form</h1>
+        <form>
+            First Name<br>
+            <input type="text" name="firstname"><br><br>
+
+            Last Name<br>
+            <input type="text" name="lastname"><br><br>
+
+            Email Address<br>
+            <input type="email" name="email"><br><br>
+
+            Phone Number<br>
+            <input type="tel" name="phone"><br><br>
+
+            Which position are you applying for?<br>
+            <select>
+                <option></option>
+                <option value="FEWD">Front End Web Developer</option>
+                <option value="FSWD">Full Stack Web Developer</option>
+                <option value="AD">Android Developer</option>
+                <option value="ID">iOS Developer</option>
+            </select>
+            <br><br>
+
+            What skills do you have for this position?<br>
+            <input type="checkbox" name="fe" value="Front End"> Front End Developer - HTML, CSS, JS<br>
+            <input type="checkbox" name="fs" value="Full Stack"> Full Stack Developer - PHP/Python/Ruby/Java<br>
+            <input type="checkbox" name="ad" value="Android Developer"> Android Developer - Java<br>
+
+            <input type="checkbox" name="id" value="iOS Developer"> iOS Developer - Objective C, Swift<br><br>
+
+
+            Are you willing to relocate?<br>
+            <input type="radio" name="relocate" value="Yes">Yes<br>
+            <input type="radio" name="relocate" value="No">No<br><br>
+
+            When can you start work?<br>
+            <input type="date" name="date"><br><br>
+
+            Portfolio Website<br>
+            <input type="text" name="website"><br><br>
+
+            Attach a Copy of Resume<br>
+            <input type="file" name="fileToUpload"><br><br>
+
+            <textarea rows="4" cols="50">The purpose of an employment application form is to match the best candidates with the job. It is a preliminary screening to eliminate those who are obviously not suited for the job. The advantages of employment application forms are quick and easy to do.
+            </textarea>
+        </form>
+    </body>
+</html>
